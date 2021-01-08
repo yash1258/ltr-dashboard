@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width:100%;
+    height: 100%;
+    background-color: #0E1726;
+    color:white;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.color{
+    color:#60beed;
+}
+.bg-1{
+    background-color: #60beed;
+}
+.bg-5{
+    background-color: #ED3833;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 0rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.fa-ul {
+    list-style-type: none;
+    margin-left: 0em; 
+    padding-left: 0;
+}
+ul.navbar-nav.ml-auto{
+    background-color:#070715;
+}
+.btn-md{
+    padding: 0.175rem 1.75rem;
+}
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+    top: 5px;
+}
+ul.timeline > li {
+    margin: 20px 35px;
+    padding-left: 20px;
+}
+.bg-6{
+    background-color: #3168C5;
+}
+.bg-7{
+    background-color: #464F5B;
+}
+.bg-8{
+    background-color: yellow;
+}
+ul.timeline > li:before {
+    content: "\f00c";
+    background:#3168C5;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    z-index: 400;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    text-align: center;
+    vertical-align: bottom;
+    line-height: 35px;
+}
+.color-3{
+    color: #483641;
+}
+
+.btn-custom{
+    padding: 0.3rem 1rem;
+    background-color: transparent;
+    border: 1px solid #483641;
+    color:white;
+    font-size: 15px;
+}
+.select-box {
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color:transparent;
+    background-clip: padding-box;
+    border: 1px solid#070715;
+    border-radius: .25rem;
+    color:#60beed;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.nav-tabs{
+    background-color:#1A2039;
+}
+.nav-tabs > .nav-item{
+border-right: 1px solid white;
+padding: 5px 2rem;
+}
+.nav-tabs > .nav-item:last-child{
+    border-right: none;
+
+}
+svg.svg-inline--fa {
+    margin-right: 5px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.color-2{
+    color: #244C4F;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+.bg-2{
+    background-color:#1A2039;
+}
+.bg-3{
+    background-color:#0E1726;
+}
+.ml-6{
+    margin-left: 4.5rem;
+}
+.icon.fab {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.8em;
+    border: 1px solid #f8f8f8;
+    text-align: center;
+}
+svg.svg-inline--fa.fa-facebook-f.fa-w-10.icon{
+    border-radius: 50%;
+    border: 1px solid #464F5B;
+    padding: 0 6px;
+    width: 25px;
+    color: #464F5B;
+    height: 25px;
+}
+svg.svg-inline--fa.fa-twitter.fa-w-16.icon{
+    border-radius: 50%;
+    border: 1px solid #464F5B;
+    padding: 0 6px;
+    width: 25px;
+    height: 25px;
+    color: #464F5B;
+}
+svg.svg-inline--fa.fa-linkedin-in.fa-w-14.icon{
+    border-radius: 50%;
+    border: 1px solid #464F5B;
+    padding: 0 6px;
+    width: 25px;
+    height: 25px;
+    color: #464F5B;
+}
+svg.svg-inline--fa.fa-search.fa-w-16{
+    border-radius: 50%;
+    border: 1px solid #60beed;
+    padding: 0 6px;
+    width: 25px;
+    height: 25px;
+    color: white;
+    background-color: #60beed;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #0E1726;
+}
+.btn-group-lg>.btn, .btn-lg{
+    padding: 0.5rem 2rem;
+}
+.bg-4{
+    background-color: #7ED957;
+}
+p {
+    font-size: 11px;
+    font-weight: 700;
+}
+.w-80{
+    width: 65%;
+}
+.info::after{
+    content: "";
+    height: 0.5em;
+    border-top: 2px solid #295153;
+    z-index: -1;
+    bottom: 0;
+    top: 25px;
+    left: 42%;
+    right: 0;
+    position: absolute;
+    flex: 1;
+    width: 40px;
+
+}
+
+svg.svg-inline--fa.fa-pencil-alt.fa-w-16{
+    border-radius: 50%;
+    border: 1px solid #464F5B;
+    padding: 0 5px;
+    width: 25px;
+    background-color: #489867;
+    height: 25px;
+    color: black;
+
+}
